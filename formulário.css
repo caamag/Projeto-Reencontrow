@@ -1,0 +1,136 @@
+*
+{padding: 0px;
+margin: 0px;
+border: 0px;}
+
+html
+{font-size: 62.5%;}
+
+header h1
+{color: white;
+text-align: center;
+font-size: 3rem;}
+
+header .logo
+{text-align: center;
+margin-top: 50px;
+color: white;
+font-weight: 900;
+margin-bottom: 50px;}
+
+.logo span
+{color: rgb(65, 210, 247);}
+
+body
+{background-color: #15161b;}
+
+.titulo-form
+{font-size: 3rem;
+font-weight: 600;
+text-align: center;
+padding: 20px;
+color: white;
+margin-bottom: 50px;
+padding-top: 50px;}
+
+@media(min-width:320px) and (max-width: 800px){
+    .titulo-form
+    {font-size: 2rem;
+    margin-left: -90px;
+    margin-bottom: -1px;}
+}
+
+.form
+{background-color:rgb(13, 49, 58);
+width: 60%;
+margin: 0 auto;
+border-radius: 10px;
+margin-top: 100px;
+padding-bottom: 50px;}
+
+@media(min-width:320px) and (max-width: 800px){
+    .form
+    {width: 100%;
+    border-radius: 0px;}
+}
+
+.form .conteudo
+{padding: 15px;
+font-size: 1.6rem;
+border-radius: 10px;
+margin-left: 250px;
+width: 400px;}
+
+@media(min-width:320px) and (max-width: 800px){
+    .form .conteudo
+    {padding: 5px;
+    width: 150px;
+    margin-left: 20px ;}
+}
+
+.form .idade
+{margin-left: 20px;
+padding: 15px;
+font-size: 1.6rem;
+border-radius: 10px;}
+
+@media(min-width:320px) and (max-width: 800px){
+    .form .idade
+    {padding: 5px;
+    width: 100px;}
+}
+
+.form .contato
+{margin-left: 20px;
+font-size: 1.6rem;
+padding: 15px;
+border-radius: 10px;}
+
+@media(min-width:320px) and (max-width: 800px){
+    .form .contato
+    {padding: 5px;
+    width: 100px;}
+}
+
+.form .senha 
+{margin-left: 20px;
+font-size: 1.6rem;
+padding: 15px;
+border-radius: 10px;
+margin-left: 250px;
+width: 420px;}
+
+@media(min-width:320px) and (max-width: 800px){
+    .form .senha
+    {padding: 5px;
+    margin-left: 20px;
+    width: 250px;}
+}
+
+.form label
+{margin-left: 260px;
+font-size: 2rem;
+color: white;}
+
+@media(min-width:320px) and (max-width: 800px){
+    .form label
+    {margin-left: 25px;
+    font-size: 1.4rem;}
+}
+
+.form a
+{text-decoration: none;
+color: black;
+font-size: 1.6rem;
+background-color: white;
+padding: 20px;
+margin-left: 250px;
+border-radius: 10px;
+font-weight: 900}
+
+@media(min-width:320px) and (max-width: 800px){
+    .form a
+    {padding: 15px;
+    margin-left: 20px;
+    font-size: 1.4rem;}
+}
